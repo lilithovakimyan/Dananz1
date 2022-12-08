@@ -1,0 +1,16 @@
+.header {
+  /* position: fixed; */
+  margin: 55px 0 97px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .header {
+    margin: 55px 0;
+  }
+}
